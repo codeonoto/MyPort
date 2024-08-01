@@ -12,18 +12,18 @@ const Approch = () => {
       </h1>
       <div className='my-20 flex flex-col lg:flex-row items-center justify-center gap-4'>
         <Card
-          title='Planning & Strategy'
+          title='Discovery and Planning'
           icon={<AceternityIcon order='Phase 1' />}
-          description='I will plan and strategize the project according to your requirements'>
+          description='I begin by engaging in detailed discussions with clients to fully understand their vision, goals, and specific requirements for the project. This phase is all about gathering insights, defining the project scope, and setting clear expectations.'>
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName='bg-emerald-900'
           />
         </Card>
         <Card
-          title='Development & Progress Update'
+          title='Design and Development'
           icon={<AceternityIcon order='Phase 2' />}
-          description="I'll keep you updated with the progress of the project">
+          description="In this phase, I focus on translating the project's goals into a visually appealing and user-friendly design. Wireframes, prototypes, and design mockups are created to provide a clear vision of the end product. I ensure that the design aligns with the client's brand identity and resonates with the target audience.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName='bg-black'
@@ -37,7 +37,7 @@ const Approch = () => {
         <Card
           title='Development & Launch'
           icon={<AceternityIcon order='Phase 3' />}
-          description='I will develop the project and launch it'>
+          description='Before launching the product, I conduct a final review with the client to ensure all requirements have been met and that they are fully satisfied with the outcome. The product is then deployed, following best practices for security, scalability, and performance.'>
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName='bg-sky-600'

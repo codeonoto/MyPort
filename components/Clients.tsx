@@ -17,7 +17,7 @@ function Clients() {
           speed='slow'
         />
 
-        <div className='flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg: mt-10'>
+        {/* <div className='flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg: mt-10'>
           {companies.map(({ id, img, name, nameImg }) => (
             <div
               key={id}
@@ -25,7 +25,7 @@ function Clients() {
               <img
                 src={img}
                 alt={name}
-                className='md:w-10 w-5'
+                className='md:w-10 w-12'
               />
               <img
                 src={nameImg}
@@ -34,7 +34,7 @@ function Clients() {
               />
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );
