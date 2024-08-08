@@ -2,7 +2,7 @@ import { url } from 'inspector';
 
 export const navItems = [
   { name: 'About', link: '#about' },
-  // { name: 'Projects', link: '#projects' },
+  { name: 'Projects', link: '#projects' },
   { name: 'Testimonials', link: '#testimonials' },
   { name: 'Contact', link: '#contact' },
 ];
@@ -78,7 +78,7 @@ export const projects = [
     id: 1,
     title: 'myAnswer - A SaaS Application',
     des: "myAnswer represents a cutting-edge SaaS platform that revolutionizes PDF processing and document management. By leveraging advanced technologies such as Next.js 13, React, Prisma, tRPC, Tailwind CSS, and others, we've created a comprehensive solution that addresses the challenges faced by individuals and businesses in handling PDF documents.",
-    img: '/blankWeb.svg',
+    img: '/myAnswer.png',
     iconLists: [
       '/next.svg',
       '/tail.svg',
@@ -90,28 +90,28 @@ export const projects = [
   },
   {
     id: 2,
-    title: 'Project 2 - Temp Data',
-    des: 'A web application that allows users to create, edit, and delete temporary data. The app is built using Next.js, Tailwind CSS, TypeScript, and other modern technologies.',
-    img: '/blankWeb.svg',
-    iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
-    link: 'https://github.com/codeonoto',
+    title: 'Tanishk - Portfolio',
+    des: 'Designed and built this portfolio with React.js, Three.js, and Framer Motion, focusing on creating a seamless and captivating user experience.',
+    img: '/tanishkPort.png',
+    iconLists: ['/react.png', '/tail.svg', '/js.svg', '/three.svg', '/fm.svg'],
+    link: 'https://tanishk.xyz',
   },
-  {
-    id: 3,
-    title: 'Project 3 - Temp Data',
-    des: 'A web application that allows users to create, edit, and delete temporary data. The app is built using Next.js, Tailwind CSS, TypeScript, and other modern technologies.',
-    img: '/blankWeb.svg',
-    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
-    link: 'https://github.com/codeonoto',
-  },
-  {
-    id: 4,
-    title: 'Project 4 - Temp Data',
-    des: 'A web application that allows users to create, edit, and delete temporary data. The app is built using Next.js, Tailwind CSS, TypeScript, and other modern technologies.',
-    img: '/blankWeb.svg',
-    iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/three.svg', '/gsap.svg'],
-    link: 'https://github.com/codeonoto',
-  },
+  // {
+  //   id: 3,
+  //   title: 'Project 3 - Temp Data',
+  //   des: 'A web application that allows users to create, edit, and delete temporary data. The app is built using Next.js, Tailwind CSS, TypeScript, and other modern technologies.',
+  //   img: '/blankWeb.svg',
+  //   iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
+  //   link: 'https://github.com/codeonoto',
+  // },
+  // {
+  //   id: 4,
+  //   title: 'Project 4 - Temp Data',
+  //   des: 'A web application that allows users to create, edit, and delete temporary data. The app is built using Next.js, Tailwind CSS, TypeScript, and other modern technologies.',
+  //   img: '/blankWeb.svg',
+  //   iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/three.svg', '/gsap.svg'],
+  //   link: 'https://github.com/codeonoto',
+  // },
 ];
 
 export const testimonials = [
