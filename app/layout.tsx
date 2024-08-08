@@ -8,7 +8,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Portoflio | Deepanshu Sahu',
+  title: 'Deepanshu Sahu | MERN STACK & Next.js Developer',
   description: 'MERN STACK & Next.js Developer',
 };
 
@@ -19,6 +19,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
+      <head>
+        <link
+          rel='icon'
+          href='/deepanshu.png'
+        />{' '}
+      </head>
       <body className={inter.className}>
         <ThemeProvider
           attribute='class'
