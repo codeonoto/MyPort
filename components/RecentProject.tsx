@@ -19,8 +19,8 @@ const RecentProject = () => {
             key={item.id}>
             <PinContainer
               title={item.link}
-              href='https://twitter.com/mannupaaji'>
-              <div className='relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10'>
+              href='https://github.com/codeonoto'>
+              <div className='relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10 line-clamp-1'>
                 <div
                   className='relative w-full h-full overflow-hidden lg:rounded-3xl'
                   style={{ backgroundColor: '#13162D' }}>
@@ -32,7 +32,7 @@ const RecentProject = () => {
                 <img
                   src={item.img}
                   alt='cover'
-                  className='z-10 absolute bottom-0 transform rotate-[4deg]'
+                  className='z-10 absolute bottom-0 transform rotate-[2deg] '
                 />
               </div>
 
@@ -73,7 +73,7 @@ const RecentProject = () => {
                     target='_blank'
                     className='flex items-center'>
                     <p className='flex lg:text-xl md:text-xs text-sm text-purple'>
-                      Check Live Site
+                      Check it Out
                     </p>
                     <FaLocationArrow
                       className='ms-3'
