@@ -108,7 +108,7 @@ export const projects = [
       '/stream.svg',
       '/shdcn.png',
     ],
-    link: 'https://github.com/codeonoto/weMeet',
+    link: 'https://we-meet.onoto.tech',
   },
   {
     id: 4,
